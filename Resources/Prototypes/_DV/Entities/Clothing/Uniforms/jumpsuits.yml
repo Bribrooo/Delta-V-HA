@@ -467,6 +467,17 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitPharmaShirt
+  name: formal pharmacist suit
+  description: A formal suit for the pharmacist. It has a few stains on it, but it's still presentable.
+  components:
+  - type: Sprite
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/pharmashirtsuit.rsi
+  - type: Clothing
+    sprite: _DV/Clothing/Uniforms/Jumpsuit/pharmashirtsuit.rsi
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformJumpsuitProsecutor
   name: prosecutor's suit
   description: A red suit with a fancy cravat. Perfect for a prosecutor.
