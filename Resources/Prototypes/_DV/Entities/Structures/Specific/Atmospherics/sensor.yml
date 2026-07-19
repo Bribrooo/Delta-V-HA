@@ -84,6 +84,10 @@
   id: AirSensorUnset
 
 - type: entity
+  parent: [ AirSensorGray, BaseUnsetSensor ]
+  id: AirSensorUnsetGray
+
+- type: entity
   abstract: true
   id: BaseUnsetSensor
   suffix: Unset
