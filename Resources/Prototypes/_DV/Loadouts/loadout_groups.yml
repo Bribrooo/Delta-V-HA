@@ -1099,7 +1099,7 @@
   - LizardPlushieZookeeper
 
 - type: loadoutGroup
-  id: ChefJobShoes
+  id: ChefShoes
   name: loadout-group-chef-shoes-delta
   loadouts:
   - ChefShoes
