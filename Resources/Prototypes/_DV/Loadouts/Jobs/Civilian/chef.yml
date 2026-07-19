@@ -2,7 +2,7 @@
 - type: loadout
   id: ChefKimono
   equipment:
-    jumpsuit: ClothingUniformJumpsuitChefKimono 
+    jumpsuit: ClothingUniformJumpsuitChefKimono
 
 # Shoes
 - type: loadout
