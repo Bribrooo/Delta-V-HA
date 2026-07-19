@@ -10,17 +10,10 @@
       map: [ "enum.PowerDeviceVisualLayers.Powered" ]
 
 - type: entity
-  parent: BaseItem
-  id: AirSensorAssemblyGray
-  name: air sensor assembly
-  description: Air sensor assembly. An assembly of air sensors?
+  parent: AirSensorAssembly
+  id: AirSensorGrayAssembly
+  suffix: gray
   components:
-  - type: Item
-    size: Small
-  - type: Anchorable
-  - type: Construction
-    graph: AirSensor
-    node: assembly
   - type: Sprite
     drawdepth: FloorObjects
     sprite: _DV/Structures/Specific/Atmospherics/sensor.rsi
