@@ -13,7 +13,7 @@
         - type: StationNameSetup
           mapNameTemplate: '{0} Edge Station {1}'
           nameGenerator:
-            !type:NanotrasenNameGenerator
+           !type:NanotrasenNameGenerator
             prefixCreator: 'DV'
         - type: StationJobs
           availableJobs:
@@ -75,7 +75,7 @@
             Lawyer: [ 1, 1 ]
             Prosecutor: [ 1, 1 ]
             Clerk: [ 1, 1 ]
-meta:
+  meta:
   format: 7
   category: Map
   engineVersion: 275.2.1
@@ -83,88 +83,88 @@ meta:
   forkVersion: ""
   time: 07/19/2026 18:43:09
   entityCount: 20633
-maps:
-- 1
-grids:
-- 2
-orphans: []
-nullspace: []
-tilemap:
-  0: Space
-  1: FloorArcadeBlue
-  2: FloorArcadeBlue2
-  20: FloorAstroGrass
-  14: FloorBar
-  17: FloorBlue
-  18: FloorBlueCircuit
-  11: FloorBoxing
-  7: FloorBrassFilled
-  8: FloorBrassReebe
-  13: FloorBrokenWood
-  23: FloorCarpetClown
-  24: FloorCarpetOffice
-  29: FloorConcrete
-  30: FloorConcreteMono
-  32: FloorDark
-  6: FloorDarkDiagonal
-  36: FloorDarkMini
-  37: FloorDarkMono
-  4: FloorDarkPavement
-  40: FloorDarkPavementVertical
-  41: FloorDarkPlastic
-  44: FloorEighties
-  47: FloorFreezer
-  48: FloorGlass
-  50: FloorGrass
-  53: FloorGrassLight
-  55: FloorGrayConcreteMono
-  57: FloorGreenCircuit
-  58: FloorGym
-  59: FloorHull
-  60: FloorHullReinforced
-  25: FloorHullReinforcedDestructible
-  61: FloorHydro
-  63: FloorKitchen
-  64: FloorLaundry
-  67: FloorMetalDiamond
-  22: FloorMetalWhite
-  68: FloorMime
-  21: FloorMiningDark
-  72: FloorMono
-  75: FloorOldConcreteSmooth
-  77: FloorPlanetGrass
-  79: FloorRGlass
-  80: FloorReinforced
-  81: FloorReinforcedHardened
-  83: FloorShowroom
-  87: FloorShuttleOrange
-  89: FloorShuttleRed
-  90: FloorShuttleWhite
-  94: FloorSteel
-  16: FloorSteelBurnt
-  96: FloorSteelCheckerDark
-  10: FloorSteelCheckerLight
-  15: FloorSteelDamaged
-  19: FloorSteelDiagonal
-  5: FloorSteelDiagonalMini
-  102: FloorSteelHerringbone
-  105: FloorSteelMono
-  107: FloorSteelPavement
-  108: FloorSteelPavementVertical
-  109: FloorTechMaint
-  110: FloorTechMaint2
-  111: FloorTechMaint3
-  113: FloorWhite
-  114: FloorWhiteDiagonal
-  122: FloorWhitePlastic
-  123: FloorWood
-  3: FloorWoodLarge
-  125: FloorWoodTile
-  126: Lattice
-  127: Plating
-  9: PlatingBrass
-  12: PlatingBurnt
-entities:
+  maps:
+  - 1
+  grids:
+  - 2
+  orphans: []
+  nullspace: []
+  tilemap:
+    0: Space
+    1: FloorArcadeBlue
+    2: FloorArcadeBlue2
+    20: FloorAstroGrass
+    14: FloorBar
+    17: FloorBlue
+    18: FloorBlueCircuit
+    11: FloorBoxing
+    7: FloorBrassFilled
+    8: FloorBrassReebe
+    13: FloorBrokenWood
+    23: FloorCarpetClown
+    24: FloorCarpetOffice
+    29: FloorConcrete
+    30: FloorConcreteMono
+    32: FloorDark
+    6: FloorDarkDiagonal
+    36: FloorDarkMini
+    37: FloorDarkMono
+    4: FloorDarkPavement
+    40: FloorDarkPavementVertical
+    41: FloorDarkPlastic
+    44: FloorEighties
+    47: FloorFreezer
+    48: FloorGlass
+    50: FloorGrass
+    53: FloorGrassLight
+    55: FloorGrayConcreteMono
+    57: FloorGreenCircuit
+    58: FloorGym
+    59: FloorHull
+    60: FloorHullReinforced
+    25: FloorHullReinforcedDestructible
+    61: FloorHydro
+    63: FloorKitchen
+    64: FloorLaundry
+    67: FloorMetalDiamond
+    22: FloorMetalWhite
+    68: FloorMime
+    21: FloorMiningDark
+    72: FloorMono
+    75: FloorOldConcreteSmooth
+    77: FloorPlanetGrass
+    79: FloorRGlass
+    80: FloorReinforced
+    81: FloorReinforcedHardened
+    83: FloorShowroom
+    87: FloorShuttleOrange
+    89: FloorShuttleRed
+    90: FloorShuttleWhite
+    94: FloorSteel
+    16: FloorSteelBurnt
+    96: FloorSteelCheckerDark
+    10: FloorSteelCheckerLight
+    15: FloorSteelDamaged
+    19: FloorSteelDiagonal
+    5: FloorSteelDiagonalMini
+    102: FloorSteelHerringbone
+    105: FloorSteelMono
+    107: FloorSteelPavement
+    108: FloorSteelPavementVertical
+    109: FloorTechMaint
+    110: FloorTechMaint2
+    111: FloorTechMaint3
+    113: FloorWhite
+    114: FloorWhiteDiagonal
+    122: FloorWhitePlastic
+    123: FloorWood
+    3: FloorWoodLarge
+    125: FloorWoodTile
+    126: Lattice
+    127: Plating
+    9: PlatingBrass
+    12: PlatingBurnt
+  entities:
 - proto: ""
   entities:
   - uid: 1
