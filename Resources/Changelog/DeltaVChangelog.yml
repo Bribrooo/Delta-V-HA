@@ -1,38 +1,4 @@
 ﻿Entries:
-- author: Toby222
-  changes:
-  - message: Removed footprint prediction (for now)
-    type: Remove
-  id: 2074
-  time: '2026-01-16T19:07:45.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/5224
-- author: Velcroboy
-  changes:
-  - message: Prisoners can find dull bread knives in the ChefVend.
-    type: Tweak
-  id: 2075
-  time: '2026-01-17T21:13:59.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/5234
-- author: Halo3moth
-  changes:
-  - message: The T1 armored vest (slim) can now once again be picked in security loadouts.
-    type: Add
-  id: 2076
-  time: '2026-01-17T21:36:45.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/5220
-- author: biddygelson
-  changes:
-  - message: 'Academy: added anti-meteor zones and anti-anomaly zone, AI restoration
-      console in Mystagogue, Robotics Console in robo, fishing hole added to park,
-      materials is cargo at roundstart.'
-    type: Add
-  - message: 'Academy: station starts with distro and waste enabled, spare atmos chambers
-      start as vacuums, split artifacts'' APCs for power management, botany has more
-      trays and is slightly larger, department-front holopads in the department.'
-    type: Tweak
-  id: 2077
-  time: '2026-01-18T01:54:56.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/5130
 - author: DisposableCrewmember42
   changes:
   - message: You can no longer drink the deep fryer.
@@ -4369,4 +4335,40 @@
   id: 2574
   time: '2026-07-20T00:24:43.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/6310
+- author: kotobdev
+  changes:
+  - message: The Ardent Censer no longer requires fuel for deconversions.
+    type: Tweak
+  id: 2575
+  time: '2026-07-20T17:38:51.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/5016
+- author: Halo3rat, kotobdev
+  changes:
+  - message: The Freighter Crew's Jumpsuit is now available in the AutoDrobe, for
+      those who value their dental hygiene.
+    type: Add
+  id: 2576
+  time: '2026-07-20T20:06:59.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/6331
+- author: Mnemotechnician, kotobdev, ShepardToTheStars
+  changes:
+  - message: You can now offer items to other players by pressing F, and then clicking
+      on them! They can accept by clicking on the alert on the side of their screen.
+    type: Add
+  id: 2577
+  time: '2026-07-20T20:13:58.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/5597
+- author: ShepardToTheStars
+  changes:
+  - message: Glimmer probers can once again turn on and lock into place when glimmer
+      is over 750.
+    type: Add
+  - message: Glimmer prober explosions are 1.5x bigger if glimmer is over 900. You
+      better build drainers! :)
+    type: Tweak
+  - message: The oracle can now give normality crystals when completing her requests.
+    type: Tweak
+  id: 2578
+  time: '2026-07-20T20:29:02.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/6292
 Order: 1
