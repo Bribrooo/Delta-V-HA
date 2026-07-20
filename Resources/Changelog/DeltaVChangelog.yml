@@ -1,19 +1,4 @@
 ﻿Entries:
-- author: cmorley191
-  changes:
-  - message: The Oracle will no longer request items that are "very" far away from
-      being researched.
-    type: Tweak
-  id: 2072
-  time: '2026-01-16T18:58:51.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/4430
-- author: Proxysseia
-  changes:
-  - message: Prison Knives no longer spawn in Prison Lockers
-    type: Remove
-  id: 2073
-  time: '2026-01-16T18:59:31.0000000+00:00'
-  url: https://github.com/DeltaV-Station/Delta-v/pull/4934
 - author: Toby222
   changes:
   - message: Removed footprint prediction (for now)
@@ -4370,4 +4355,18 @@
   id: 2572
   time: '2026-07-19T16:38:26.0000000+00:00'
   url: https://github.com/DeltaV-Station/Delta-v/pull/6299
+- author: BriBrooo
+  changes:
+  - message: Added new kimono and sandals loadout options for the chef.
+    type: Add
+  id: 2573
+  time: '2026-07-20T00:12:52.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/6341
+- author: Eternally-Confused
+  changes:
+  - message: Cyborgs are once again able to "boop" and "whirr"
+    type: Add
+  id: 2574
+  time: '2026-07-20T00:24:43.0000000+00:00'
+  url: https://github.com/DeltaV-Station/Delta-v/pull/6310
 Order: 1
