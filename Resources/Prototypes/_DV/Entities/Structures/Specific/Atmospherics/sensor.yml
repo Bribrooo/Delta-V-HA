@@ -1,16 +1,14 @@
 - type: entity
-  parent: AirSensor
+  parent: [ AirSensor ]
   id: AirSensorGray
   suffix: gray
+  components:
   - type: Sprite
     drawdepth: FloorObjects
     sprite: _DV/Structures/Specific/Atmospherics/sensor.rsi
-    layers:
-    - state: gsensor1
-      map: [ "enum.PowerDeviceVisualLayers.Powered" ]
 
 - type: entity
-  parent: AirSensorAssembly
+  parent: [ AirSensorAssembly ]
   id: AirSensorGrayAssembly
   suffix: gray
   components:
@@ -27,7 +25,7 @@
   id: AirSensorUnset
 
 - type: entity
-  parent: [ AirSensorGray, AirSensorUnset ]
+  parent: [ AirSensorGray, BaseUnsetSensor ]
   id: AirSensorGrayUnset
   suffix: Unset, gray
 

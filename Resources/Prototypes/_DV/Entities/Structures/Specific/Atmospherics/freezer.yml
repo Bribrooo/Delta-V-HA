@@ -1,4 +1,4 @@
 - type: entity
-  parent: [ AirSensorGray, AirSensorFreezer ]
+  parent: [ AirSensorFreezerBase, AirSensorGray ]
   id: AirSensorGrayFreezer
   suffix: Freezer Atmosphere, gray
